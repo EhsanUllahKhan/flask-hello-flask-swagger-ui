@@ -1,0 +1,35 @@
+{
+    "validatorUrl": null,
+    "info": {
+        "title": "Doora-vpc-be",
+        "version": "1.0.0"
+    },
+    "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+    },
+    "servers": [
+        {
+            "url": "/"
+        }
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "openapi": "3.0.2",
+    "paths": {
+        "/": {
+            "get": {
+                "tags": [
+                    "Default page"
+                ],
+                "summary": "Returns Hello",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}

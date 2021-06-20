@@ -1,0 +1,7 @@
+flask
+flask_swagger_ui==3.36.0
+flask-sqlalchemy 
+flask-marshmallow 
+marshmallow-sqlalchemy 
+flask-restplus
+
